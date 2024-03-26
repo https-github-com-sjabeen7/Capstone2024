@@ -1,0 +1,33 @@
+﻿CREATE TABLE [dbo].[BryanWSE] (
+  [UserId] [nvarchar](50) NOT NULL,
+  [Gender] [nvarchar](50) NOT NULL,
+  [Locale] [nvarchar](50) NOT NULL,
+  [TotalPoints] [tinyint] NOT NULL,
+  [column5] [tinyint] NULL,
+  [HRA_Question_Complete] [tinyint] NULL,
+  [Biometrics_Complete] [tinyint] NULL,
+  [Option_1_Sign_up_for_an_onsite_screening] [nvarchar](1) NULL,
+  [Option_2] [nvarchar](1) NULL,
+  [Completion] [tinyint] NULL,
+  [Wellness_Activities] [tinyint] NULL,
+  [Record_a_Wellness_Activity] [tinyint] NULL,
+  [Kick_Off] [tinyint] NULL,
+  [Flu_Shot] [tinyint] NULL,
+  [Dental_Exam] [tinyint] NULL,
+  [Preventive_Exams] [tinyint] NULL,
+  [Blood_Donation] [tinyint] NULL,
+  [_5K_Community_Race] [tinyint] NULL,
+  [Other] [tinyint] NULL,
+  [Steps] [tinyint] NULL,
+  [_1_point_s_for_every_260000_steps] [tinyint] NULL,
+  [_1_point_s_for_every_260000_steps2] [tinyint] NULL,
+  [_1_point_s_for_every_260000_steps3] [nvarchar](1) NULL,
+  [_1_point_s_for_every_260000_steps4] [nvarchar](1) NULL,
+  [Adjustments_Redemptions] [nvarchar](1) NULL,
+  [High_Risk_Counter] [tinyint] NULL,
+  [High_Risk_Counter_Incentive_Value] [nvarchar](1) NULL,
+  [High_Risk_Counter_Met_Date] [datetime2] NULL,
+  CONSTRAINT [PK_BryanWSE] PRIMARY KEY CLUSTERED ([UserId])
+)
+ON [PRIMARY]
+GO
